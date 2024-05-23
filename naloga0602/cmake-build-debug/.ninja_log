@@ -1,0 +1,6 @@
+# ninja log v5
+2	598	1713259879004371392	CMakeFiles/naloga0602.dir/Histogram.cpp.o	df37a5e4f4cf7392
+2	230	1712903252256607659	CMakeFiles/naloga0602.dir/PrintUtility.cpp.o	5e9a9e21cdb99d9d
+421	506	1713259959663369274	naloga0602	9aee62a4fb083f7d
+2	219	1712903252244607340	CMakeFiles/naloga0602.dir/Graph.cpp.o	f0646a36f1a416f1
+2	421	1713259959583374234	CMakeFiles/naloga0602.dir/main.cpp.o	855d62888473f0b

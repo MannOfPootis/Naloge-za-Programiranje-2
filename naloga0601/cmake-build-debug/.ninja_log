@@ -1,0 +1,17 @@
+# ninja log v5
+2	461	1712906703335897945	CMakeFiles/naloga0401.dir/EventOrganizer.cpp.o	ff7987f6642f439
+2	452	1712906772653449015	CMakeFiles/naloga0401.dir/Event.cpp.o	874de196fc2ef8f1
+3	339	1712906703215895260	CMakeFiles/naloga0401.dir/FinancialSponsor.cpp.o	d58462c7c9e62eb8
+4	830	1712900683359475029	CMakeFiles/naloga0401.dir/Date.cpp.o	4a1d2381bde44c66
+6	670	1712900683199475036	CMakeFiles/naloga0401.dir/Coordinates.cpp.o	bd152eb3205357dd
+2	386	1712906772585447494	CMakeFiles/naloga0401.dir/Concert.cpp.o	d2d860e275f2d19e
+5	868	1712900683395475028	CMakeFiles/naloga0401.dir/Time.cpp.o	e16d7c4a81c4ba18
+1	37	1713254802426538879	build.ninja	f8e20a1482ea14d2
+6	831	1712900683351475030	CMakeFiles/naloga0401.dir/DateTime.cpp.o	3f5d6883b7464325
+5	678	1712900683203475035	CMakeFiles/naloga0401.dir/Location.cpp.o	8f264e5d8dbaca8a
+3	204	1712906772405443466	CMakeFiles/naloga0401.dir/AnonymusSoponsor.cpp.o	c4754685c1473781
+3	404	1712906703279896692	CMakeFiles/naloga0401.dir/Sponsor.cpp.o	618c1363038dd430
+3	373	1712902927599485251	CMakeFiles/naloga0401.dir/financialSponsor.cpp.o	2a03e187ef53aebd
+2	357	1712906703231895618	CMakeFiles/naloga0401.dir/main.cpp.o	2c703eafb2dbcd08
+452	541	1712906772741450985	naloga0401	51601f2e350057cc
+3	392	1712906772593447673	CMakeFiles/naloga0401.dir/SportsEvent.cpp.o	5a61cf43fc71d2cb

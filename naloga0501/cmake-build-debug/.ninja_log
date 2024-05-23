@@ -1,0 +1,12 @@
+# ninja log v5
+2	543	1712296449364481643	CMakeFiles/naloga0401.dir/EventOrganizer.cpp.o	c7e471b42bf95aeb
+2	543	1712296449364481643	CMakeFiles/naloga0401.dir/Event.cpp.o	20b3ca3aeadc5155
+2	554	1712255973432887706	CMakeFiles/naloga0401.dir/Date.cpp.o	e1ed7cfae9953e4e
+4	443	1712255973320888374	CMakeFiles/naloga0401.dir/Coordinates.cpp.o	f157471063cf19fd
+3	526	1712296449348486677	CMakeFiles/naloga0401.dir/Concert.cpp.o	e53a0392efaac89c
+3	548	1712255973428887731	CMakeFiles/naloga0401.dir/Time.cpp.o	4fef1589adfad7f6
+3	571	1712255973452887587	CMakeFiles/naloga0401.dir/DateTime.cpp.o	2e1ce9b156f4b39d
+3	431	1712255973304888469	CMakeFiles/naloga0401.dir/Location.cpp.o	198cc7d67cc2edf7
+396	488	1712299575614480193	naloga0401	6bc6028ba52df6b2
+1	396	1712299575522476941	CMakeFiles/naloga0401.dir/main.cpp.o	2e3dcb00e9035dd2
+2	365	1712299575494475951	CMakeFiles/naloga0401.dir/SportsEvent.cpp.o	7f6b140b4614eb95

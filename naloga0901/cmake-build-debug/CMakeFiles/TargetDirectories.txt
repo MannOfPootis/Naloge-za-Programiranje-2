@@ -1,0 +1,3 @@
+/home/doominik/CLionProjects/naloga0901/cmake-build-debug/CMakeFiles/naloga0901.dir
+/home/doominik/CLionProjects/naloga0901/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/doominik/CLionProjects/naloga0901/cmake-build-debug/CMakeFiles/rebuild_cache.dir
