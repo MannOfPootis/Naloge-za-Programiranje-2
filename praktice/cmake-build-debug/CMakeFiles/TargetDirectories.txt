@@ -1,0 +1,3 @@
+/home/doominik/CLionProjects/Naloge-za-Programiranje-2/praktice/cmake-build-debug/CMakeFiles/praktice.dir
+/home/doominik/CLionProjects/Naloge-za-Programiranje-2/praktice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/doominik/CLionProjects/Naloge-za-Programiranje-2/praktice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

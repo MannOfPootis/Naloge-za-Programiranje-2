@@ -11,9 +11,19 @@ bool ascendingPrice(Event *e1,Event *e2){
     return e1->getPrice()>e2->getPrice();
 }
 bool ascendingId(Event *e1,Event *e2){
-    return e1->getId()<e2->getId();
+    return e1->getId()>e2->getId();
 
 }
+bool isOver18(Event *e){
+    return e->getEventAgeGroup()==EventAgeGroup::Adult||e->getEventAgeGroup()==EventAgeGroup::Senior;
+}
+void something(){
+    std::cout<<"something\n";
+}
+void nothing(){
+    std::cout<<"nothing\n";
+}
+
 int main() {
    // std::cout << "Hello, World!" << std::endl;
     Time teaime = Time(10, 1, 1000);
@@ -26,7 +36,7 @@ int main() {
     //std::vector<Event> joshpitore;
     EventOrganizer josh("josh", "http://boli.si");
     Concert *žižek = new Concert(a, &ljublana, DateTime::getCurrentTime(), DateTime::getCurrentTime(),
-                                 "oče janez ječmen seje", 0.01, 420, "žižek", Rock);
+                                 "BINGOUM BONG", 10, 420, "žižek", Rock);
     Location dobrna("zavrh nad dobrno 14", "Zavrh nad dobrno", "Dobrna", "Slovenia", Coordinates(69.420, 80.085));
     žižek->sellTicket();
 
@@ -44,7 +54,7 @@ int main() {
     josh.addEvent(lmao2);
     josh.addEvent(chesesChasing);
     josh.addEvent(chesesChasingUp);
-    žižek->setPrice(1283);
+    //žižek->setPrice(1283);
 
 
     // std::cout << "\n" << žižek->getStartDateTime().toString() << " " << žižek->getStartDateTime().toSeconds() << "\n";
@@ -59,9 +69,15 @@ int main() {
     josh.sort(ascendingPrice);
     std::cout << josh.toString();
 */
-    PrintIfConcert rer;
-    josh.printEvents(rer);
-
+    std::cout << "\n\nEvents for 18+ \n";
+    Event* eventOver18 = josh.find(isOver18);
+    if(eventOver18 != nullptr)
+        std::cout << eventOver18->toString();
+    else
+        std::cout << "no events";
+   /* PrintIfConcert rer;
+    josh.printEvents(rer);*/
+    josh.conditionIfElse(ascendingPrice,something,nothing);
 
 //    joshpitore[0].sellTicket();
     EventOrganizer john("john", "hoooh");

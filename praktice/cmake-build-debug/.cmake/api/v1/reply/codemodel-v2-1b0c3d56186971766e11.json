@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.27"
+						"string" : "3.28"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "naloga0401",
+					"name" : "praktice",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "naloga0401::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-naloga0401-Debug-209fefd1616b4f1e11d7.json",
-					"name" : "naloga0401",
+					"id" : "praktice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-praktice-Debug-4e7a5f4183b82c84c2e9.json",
+					"name" : "praktice",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/doominik/CLionProjects/naloga1001/cmake-build-debug",
-		"source" : "/home/doominik/CLionProjects/naloga1001"
+		"build" : "/home/doominik/CLionProjects/Naloge-za-Programiranje-2/praktice/cmake-build-debug",
+		"source" : "/home/doominik/CLionProjects/Naloge-za-Programiranje-2/praktice"
 	},
 	"version" : 
 	{

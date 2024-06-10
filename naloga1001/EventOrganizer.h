@@ -15,7 +15,7 @@ class PrintIfConcert {
 public:
     void operator()(Event* e) {
         Concert* concert = dynamic_cast<Concert*>(e);
-        if (concert) {
+        if (concert != nullptr) {
             std::cout<< e->toString()<< "Concert event found!" << std::endl;
         }
     }
@@ -43,26 +43,45 @@ public:
         std::for_each(repitore.begin(), repitore.end(), f);
     };
     Event* find(bool (*f)(Event*)){
-
-
         for(Event* uck:repitore){
             if(f(uck)){
                 return uck;
             }
         }
+        return nullptr;
     };
     void sort(bool (*f)(Event*, Event*)){//boobl sort ker se mi ne da
-        for(bool sorted= false;!sorted;sorted=true){
+        for(int i=1;i!=0;i=0){
             for(int j=0;j<repitore.size()-1;j++){
                 if(f(repitore[j],repitore[j+1])){
                     Event* temp=repitore[j];
                     repitore[j]=repitore[j+1];
                     repitore[j+1]=temp;
-                    sorted=false;
+                    i++;
                 }
             }
         }
     };
+    void stalinSort(bool (*f)(Event*, Event*)){//boobl sort ker se mi ne da
+        for(bool sorted= false;!sorted;sorted=true){
+            for(int j=0;j<repitore.size()-1;j++){
+                if(!f(repitore[j],repitore[j+1])){
+                    delete repitore[j+1];
+                }
+            }
+        }
+    };
+    void conditionIfElse(bool(*f)(Event*, Event*),void(*t)(),void (*lie)()){
+        for(Event* vent:repitore){
+            for(Event* jent:repitore){
+                if(f(vent,jent)){
+                    t();
+                }else{
+                    lie();
+                }
+            }
+        }
+    }
     void bogoShort(bool (*f)(Event*, Event*)){//dont call this with a big list but it is funnny
         for(bool sorted= false;!sorted;sorted=true){
             for(int j=0;j<repitore.size()-1;j++){

@@ -1,4 +1,4 @@
-# Install script for directory: /home/doominik/CLionProjects/naloga1001
+# Install script for directory: /home/doominik/CLionProjects/Naloge-za-Programiranje-2/naloga1001
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/doominik/CLionProjects/naloga1001/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/doominik/CLionProjects/Naloge-za-Programiranje-2/naloga1001/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
